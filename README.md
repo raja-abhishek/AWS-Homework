@@ -28,7 +28,7 @@ In this section, loaded the information about cryptocurrencies and performed dat
 
 Used the PCA algorithm from sklearn to reduce the dimensions of the df_crypto_dummy DataFrame down to three principal components.
 
-![image](PCA_DF.png)
+![image](PCA_DF.PNG)
 
 #### Clustering Cryptocurrencies Using K-Means
 
@@ -43,7 +43,7 @@ Created data visualization to present the final results.
 - Created a scatter plot using hvplot, to present the clustered data about cryptocurrencies 
 ![image](Cluster.png)
 - Used hvplot.table to create a data table with all the current tradable cryptocurrencies
-![image](DataTable.png)
+![image](Data_Table.PNG)
 
 #### Optional Challenge
 - Uploaded Jupyter notebook to Amazon SageMaker and renamed (crypto_clustering_sm.ipynb) it
